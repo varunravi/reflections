@@ -1,0 +1,32 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository it gets added to the working directory.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area allows you to create the changes you want to make before adding it as a commit to the working directory. It allows you to make multiple changes per commit, saving them together.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+You can make the change you want to make in the staging area before adding it to the working directory, when it gets added to the working directory it gets added as one commit.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+If I was trying to compare two commits it might be helpful to keep the branches organized. The branches would help me switch between two different commits.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams helped me visualize the concept of what is reachable and what isn’t reachable by a commit. Parent commits are reachable by the “child” commit only if it follows the linear path. 
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+Merging the two branches together brought the coin and asteroid commits together, which allowed the code to run together. It was easy to understand the concept of each commit flowing down a linear path through the diagram. We represent it with the diagram in order to understand the concept of merging easily.  
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git’s automatic merging pros - Fast and saves time cons- If programmers aren’t actively discussing what they’re changing the merges could end up messing up the entire code if the merging is automatically happening by Git. 
+Git’s manual merging - Pros-Any discrepancies are evaluated, coders can figure out which change is better for the code. Cons-Slower, coders have to evaluate each change which could be time consuming.
